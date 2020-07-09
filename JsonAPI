@@ -1,0 +1,32 @@
+json采集地址：http://cj.fjgzycj.com/api.php/provide/vod/at/json/
+
+视频列表地址：http://cj.fjgzycj.com/api.php/provide/vod/at/json/?ac=list
+
+视频详情地址：http://cj.fjgzycj.com/api.php/provide/vod/at/json/?ac=detail
+
+列表接收参数：
+ac=list
+t=类别ID
+pg=页码
+wd=搜索关键字
+h=几小时内的数据
+例如： api.php?ac=list&t=1&pg=5   分类ID为1的列表数据第5页
+
+内容接收参数：
+参数 ids=数据ID，多个ID逗号分割。
+     t=类型ID
+     pg=页码
+     h=几小时内的数据
+
+例如:   http://域名/api.php/provide/vod/?ac=detail&ids=123,567     获取ID为123和567的数据信息
+        http://域名/api.php/provide/vod/?ac=detail&h=24     获取24小时内更新数据信息
+
+小说图片 API
+http://cj.fjgzycj.com/api.php/provide/art/?ac=list
+
+1,文章列表地址http://域名/api.php/provide/art/?ac=list
+
+2,文章详情地址http://域名/api.php/provide/art/?ac=detail
+
+播放器解析接口
+https://play.fjgbfq.com/video/vd.php?url=
